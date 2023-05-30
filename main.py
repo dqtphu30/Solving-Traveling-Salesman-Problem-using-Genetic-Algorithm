@@ -80,7 +80,7 @@ class Ui_MainWindow(object):
         self.PopulSize_Line_Edit.setGeometry(QtCore.QRect(190, 110, 250, 25))
         self.PopulSize_Line_Edit.setObjectName("PopulSize_Line_Edit")
         self.validator1 = QIntValidator()
-        self.validator1.setRange(0, 25000)
+        self.validator1.setRange(0, 5000)
         self.PopulSize_Line_Edit.setValidator(self.validator1)
 
         # Dòng kẻ ngang
